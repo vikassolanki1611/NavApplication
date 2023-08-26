@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_play"
+        android:icon="@drawable/ic_play"
+        android:title="@string/title_play"/>
+
+    <item
+        android:id="@+id/navigation_cab"
+        android:icon="@drawable/ic_cab"
+        android:title="@string/cab" />
+
+    <item
+        android:id="@+id/navigation_hotel"
+        android:icon="@drawable/ic_bag"
+        android:title="@string/hotel" />
+
+    <item
+        android:id="@+id/navigation_mall"
+        android:icon="@drawable/ic_bag"
+        android:title="@string/mall" />
+
+    <item
+        android:id="@+id/navigation_club"
+        android:icon="@drawable/ic_vistara_club"
+        android:title="@string/mall" />
+
+</menu>

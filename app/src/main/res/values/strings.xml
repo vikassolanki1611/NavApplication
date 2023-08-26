@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NavApplication</string>
+    <string name="title_home">Home</string>
+    <string name="title_play">Play</string>
+    <string name="cab">Cab</string>
+    <string name="hotel">Hotel</string>
+    <string name="mall">CV Mall</string>
+    <string name="vistara">Club Vistara</string>
+</resources>

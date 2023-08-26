@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_play">
+
+    <fragment
+        android:id="@+id/navigation_play"
+        android:name="com.example.navapplication.HomeFragment"
+        android:label="@string/title_play"
+        tools:layout="@layout/fragment_home" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_cab"
+        android:name="com.example.navapplication.CabFragment"
+        android:label="@string/cab"
+        tools:layout="@layout/fragment_cab" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_hotel"
+        android:name="com.example.navapplication.HotelFragment"
+        android:label="@string/hotel"
+        tools:layout="@layout/fragment_hotel" >
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_mall"
+        android:name="com.example.navapplication.MallFragment"
+        android:label="@string/mall"
+        tools:layout="@layout/fragment_mall" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_club"
+        android:name="com.example.navapplication.ClubFragment"
+        android:label="@string/mall"
+        tools:layout="@layout/fragment_club" >
+    </fragment>
+</navigation>
